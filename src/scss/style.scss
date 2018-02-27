@@ -71,7 +71,11 @@
 
 #photo-gallery {
   .img {
-    min-height: 230px;
+    min-height: 240px;
+  }
+
+  .container {
+    max-width: 90%;
   }
 }
 

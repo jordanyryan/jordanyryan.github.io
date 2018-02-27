@@ -49,7 +49,10 @@
     text-decoration: none; }
 
 #photo-gallery .img {
-  min-height: 230px; }
+  min-height: 240px; }
+
+#photo-gallery .container {
+  max-width: 90%; }
 
 #main-footer {
   background: black; }
