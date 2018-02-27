@@ -53,20 +53,12 @@
 #video-play {
   position: relative;
   min-height: 200px;
-  background: url("../img/video-play-img.jpeg");
+  background: url("../img/image2.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
   color: #fff; 
 
-  .dark-overlay {
-  position: absolute;
-  background-color: rgba(0,0,0,0.7);
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
   .fa {
     color: white;
@@ -74,6 +66,12 @@
   }
   .fa:hover {
     text-decoration: none;
+  }
+}
+
+#photo-gallery {
+  .img {
+    min-height: 230px;
   }
 }
 
